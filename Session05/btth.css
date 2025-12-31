@@ -1,0 +1,30 @@
+      .tong {
+            font-family: 'Times New Roman', Times, serif;
+        }
+      header {
+        text-align: center;
+        background-color: #0284c7;
+        color: aliceblue;
+        text-transform: uppercase;
+      }
+      h2 {
+        color: #0284c7;
+      }
+      .warn {
+        color: red;
+      }
+      a {
+        color:blue;
+      }
+      footer {
+        text-align: center;
+        background-color: #0284c7;
+        color: aliceblue;
+        text-transform: uppercase;
+      }
+      ul {
+        list-style: none;
+      }
+      li:hover {
+        color: #0284c7;
+      }
