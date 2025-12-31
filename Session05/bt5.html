@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain {
+            text-align: center;
+        }
+        h2 {
+            color: #1e90ff;
+        }
+        input[type="text"] { 
+            border: 2px solid;
+            border-color:#1e90ff ;
+        }
+        textarea {
+              border: 2px solid;
+            border-color:#1e90ff ;
+        }
+        button{
+            color: white;
+            background-color: #00bfff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+    <h2>Ý Kiến Phản Hồi tới Nha Sỹ</h2>
+
+    <form>
+        <label for="name">Họ và tên:</label><br>
+        <input type="text" id="name" name="name" placeholder="Nhập họ và tên"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Nhập email của bạn"><br><br>
+
+        <label for="feedback">Phản hồi của bạn:</label><br>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Nhập ý kiến của bạn..."></textarea><br><br>
+
+        <button type="submit">Gửi ý kiến</button>
+    </form>
+</div>
+
+</body>
+</html>
