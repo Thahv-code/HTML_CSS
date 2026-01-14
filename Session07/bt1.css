@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#D1 {
+    text-align: center;
+    background-color: darkgreen;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#D1 :hover {
+    background-color: aquamarine;
+    color: aliceblue;
+    text-decoration: underline;
+}
+#D2 {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200);
+    padding: 20px;
+}
+#D2 :hover {
+    color: blue;
+}
+Body {
+    background-color: darkseagreen;
+}
+.tong {
+   background-color: white;
+   padding: 30px 40px;
+   border-radius: 15px;
+   margin: 40px auto;
+   max-width: 700px;
+   color: #1A472A;
+}
+.Hed {
+    border-right: solid 4px #2D8659;
+}
+.Note {
+    background-color:#FFF3CD ;
+    width: 100%;
+    height: 100%;
+    border-left: solid 4px yellow;
+    padding: 10px;
+}
+.tong_1 {
+   background-color: white;
+   padding: 30px 40px;
+   border-radius: 15px;
+   margin: 40px auto;
+   max-width: 700px;
+   color: #1A472A;
+}
+.Hed_3 {
+    background-color: #1A472A;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+tbody tr:hover {
+    background: #f1fff4;
+}
+th ,td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+.Hed_1 {
+    border-right: solid 4px #2D8659;
+    margin: 10px;
+
+}
+.tong_3 {
+   background-color: white;
+   padding: 30px 40px;
+   border-radius: 15px;
+   margin: 40px auto;
+   max-width: 700px;
+   color: #1A472A;
+}
+.Ltt {
+    border-right: #1A472A solid 4px;
+    margin: 10px;
+}
+.ul , li {
+    padding: 14px;
+    border-bottom: 2px solid #ddd;
+}
+.tong_4 {
+     background-color: white;
+   padding: 30px 40px;
+   border-radius: 15px;
+   margin: 40px auto;
+   max-width: 700px;
+   color: #1A472A;
+}
+.Hed_4 {
+    border-right: #1A472A 4px solid;
+    margin: 10px;
+}
+.a1 {
+    background-color: #1A472A;
+    color: #f1fff4;
+}
+tbody tr:hover {
+    background-color: #e0f7e9; 
+}
+.Note_2 {
+    background-color:#FFF3CD ;
+    width: 100%;
+    height: 100%;
+    border-left: solid 4px yellow;
+    padding: 10px;
+}
+.tong_5 {
+ background-color: white;
+   padding: 30px 40px;
+   border-radius: 15px;
+   margin: 40px auto;
+   max-width: 700px;
+   color: #1A472A;
+}
+.hed_6 {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #9acd32;
+}
+.tieude {
+      margin: 15px 0 20px;
+}
+.form1 {
+     background: #a9b8ff;
+    padding: 30px;
+    border-radius: 12px;
+}
+.form1 label {
+    display: block;
+    margin: 15px 0 8px;
+    color: white;
+    font-weight: bold;
+}
+.form1 input,
+.form1 select,
+.form1 textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+}
+.checkbox1 label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    color: white;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    background: #1f4d2b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #163b21;
+}
+.Ft {
+    text-align: center;
+    background-color: #163b21;
+    color: aliceblue;
+}
+a {
+    color:#9acd32;
+}
+a:hover {
+    text-decoration: underline;
+}
+.hinhanh {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=1200);
+    background-position: center;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.hinhanh img {
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    transition: 0.3s;
+}
+.hinhanh h2 {
+    font-size: 28px;
+}
+.hinhanh img:hover {
+    transform: scale(1.1);
+}
