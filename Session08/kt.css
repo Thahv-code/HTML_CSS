@@ -10,10 +10,16 @@
     color: white;
     background-color: #0ea5e9;
     padding: 50px 50px;
-    border-radius: 10px;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1 {
+    margin-bottom:20px ;
 }
 
 .navba {
+    margin-top: 10px;
     color: #0ea5e9; 
     text-align: center;
     background-color: #e0f2fe;
@@ -21,7 +27,7 @@
     word-spacing: 10px;
 }
 
-button{
+a{
     height: 20px;
     border-radius: 5px;
     color: #0369b6;
