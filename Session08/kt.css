@@ -44,7 +44,7 @@ a{
 }
 
 .content2 {
-    border-left: #0369b6 5px;
+    border-left: 5px solid #0369b6;
     height: 200px;
     border-radius: 5px;
     padding: 10px;
