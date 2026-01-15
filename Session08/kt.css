@@ -24,7 +24,6 @@ h1 {
     text-align: center;
     background-color: #e0f2fe;
     padding: 10px;
-    word-spacing: 10px;
 }
 
 a{
@@ -32,6 +31,7 @@ a{
     border-radius: 5px;
     color: #0369b6;
     background-color: #e0f2fe;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
@@ -60,4 +60,7 @@ footer {
     color: white;
     padding: 20px;
     border-radius: 5px;
+}
+li {
+    list-style:none ;
 }
