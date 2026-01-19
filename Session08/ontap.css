@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #314559;
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+    position: sticky;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+a:hover {
+    border-radius: 5px;
+    background-color: #646b72;
+    text-decoration:underline;
+}
+
+#main {
+    height: 350px;
+    padding: 60px 90px;
+    color: white;
+    text-align: center;
+    background-color: #476887;
+}
+
+#main h1 {
+    font-size: 40px;
+}
+
+#main p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.buton {
+    padding: 5px 10px;
+}
+
+.btn1 {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn1:hover{
+    transform: translateY(-15px) ;
+}
+
+.btn2:hover{
+    transform: translateY(30px) ;
+}
+
+.btn2 {
+    background-color: #476887;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+}
+
+#infor {
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+.introduce{
+    padding-right: 900px;
+    color: #3498db;
+    font-size: larger;
+}
+
+.time{
+    padding-right: 1000px;
+    
+}
+.timetime{
+    padding-right: 1000px;
+
+    opacity: 0.5;
+}
+
+.del{
+    text-decoration:line-through;
+    opacity: 0.5;
+}

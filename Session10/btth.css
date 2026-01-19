@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    text-align: center;
+    background-color: #1E1E1E;
+    justify-content: space-between;
+}
+
+.navbar , a {
+    color: #DDDDDD;
+    text-decoration: none;
+}
