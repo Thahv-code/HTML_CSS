@@ -48,6 +48,10 @@ h2 {
   height: 180px;
 }
 
+.ca {
+    background-color: #EEEEEE;
+}
+
 .section {
   display: flex;
   justify-content: space-between;
