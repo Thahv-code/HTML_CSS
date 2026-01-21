@@ -10,7 +10,6 @@
 ul, li {
     list-style: none;
     display: flex;
-    padding: 10px;
 }
 
 .header h1 {
@@ -46,10 +45,6 @@ h2 {
 .food img {
   width: 298px;
   height: 180px;
-}
-
-.ca {
-    background-color: #EEEEEE;
 }
 
 .section {
