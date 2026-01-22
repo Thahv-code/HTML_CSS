@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chan-trang {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #cbd5f5;
+    padding: 60px 0 30px;
+}
+.noi-dung {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cot {
+    flex: 1;
+}
+
+.logo {
+    color: #818cf8;
+    margin-bottom: 10px;
+}
+
+.mo-ta {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.cot h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cot ul {
+    list-style: none;
+}
+
+.cot ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.cot ul li a {
+    color: #cbd5f5;
+    text-decoration: none;
+}
+
+.cot ul li a:hover {
+    color: #818cf8;
+}
+
+.mang-xa-hoi {
+    display: flex;
+    gap: 10px;
+}
+
+.mang-xa-hoi a {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.mang-xa-hoi a:hover {
+    background-color: #6366f1;
+}
+.lien-he li {
+    display: flex;
+    gap: 8px;
+}
+.duong-ke {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.1);
+    margin: 30px auto;
+}
+.ban-quyen {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #94a3b8;
+}

@@ -1,0 +1,61 @@
+
+.faq {
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.nhan {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #eef2ff;
+    color: #6366f1;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.faq h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.mo-ta {
+    color: #64748b;
+    margin-bottom: 40px;
+}
+.danh-sach-faq {
+    text-align: left;
+}
+.muc-faq {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.tieu-de {
+    background-color: #6366f1;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.muc-faq:not(.mo) .tieu-de {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+.icon {
+    font-size: 14px;
+}
+.noi-dung {
+    padding: 15px 20px;
+    color: #475569;
+    line-height: 1.6;
+    display: none;
+}
+.muc-faq.mo .noi-dung {
+    display: block;
+}
