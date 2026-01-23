@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .arrow {
+    display: flex;
+    gap: 50px;
+}
+
+.content1, .content2 {
+    display: flex;
+    padding: 20px;
+    margin: 70px;
+}
+
+.red {
+    color: red;
+}
+
+.text2 {
+    display: flex;
+    gap: 10px;
+}
